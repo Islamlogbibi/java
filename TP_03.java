@@ -7,17 +7,13 @@ public class TP_03 {
           public void displayFullname() {
             System.out.println("FullName: " + name  +" "+familyName);
         }
-         
     }
 
-    
     public static class Student extends Person {
         int moyen;
         public void displayMoyen() {
             System.out.println("Moyen: " + moyen);
         }
-        
-    
     }
 
    
