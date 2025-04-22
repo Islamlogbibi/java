@@ -5,16 +5,12 @@ public class TP_04 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter a");
         int a = scanner.nextInt();
-        
-        
+
         if (a >= 20){
             throw new ArithmeticException("welcome");
         }else{
             System.out.println("you can't enter");
         }
-        
-        
-        
-        
+
     }
 }
