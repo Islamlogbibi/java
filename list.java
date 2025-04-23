@@ -6,7 +6,11 @@ public class list{
         cars.add("Mercedes");
         cars.add("Audi");
         cars.add("Toyota");
-        System.out.println(cars);
         
+        cars.remove(3);
+        System.out.println( cars.get(1));
+        System.out.println( cars.size());
+        
+        System.out.println(cars);
     }
 }
