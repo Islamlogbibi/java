@@ -4,7 +4,7 @@ public class TP_03 {
     public static class Person {
         String name;
         String familyName;
-          public void displayFullname() {
+        public void displayFullname() {
             System.out.println("FullName: " + name  +" "+familyName);
         }
     }
@@ -18,6 +18,11 @@ public class TP_03 {
 
    
     public static void main(String[] args) {
+        Person person1 = new Person();
+        person1.name = "salh";
+        person1.familyName = "rahma";
+        
+
         Student student1 = new Student();
         student1.name = "mabrouk";
         
@@ -26,5 +31,7 @@ public class TP_03 {
 
         student1.displayFullname();
         student1.displayMoyen();
+
+        person1.displayFullname();
     }
 }
